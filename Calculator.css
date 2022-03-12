@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+}
+.whole{
+   border : solid black 1px ;
+   height: 473px;
+   width: 300px;
+   background-color: black;
+}
+.display{
+    color: white;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+}
+.first-line-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.clear{
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    width: 49.5%;
+    height: 2cm;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.clear:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.backspace{
+    margin-left: -2px;
+    margin-right: -2px;
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    width: 24.5%;
+    height: 2cm;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.backspace:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.divide{
+    background-color: #f44336;
+    transition-duration: 0.4s;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  
+}
+.divide:hover{
+    border: 1px solid #f44336;
+    background-color: white;
+
+}
+.second-line-buttons{
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.number-7{
+    transition-duration: 0.4s;
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.number-7:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.number-8{
+    transition-duration: 0.4s;
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.number-8:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.number-9{
+    transition-duration: 0.4s;
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.number-9:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.multiply{
+    background-color: #f44336;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.multiply:hover{
+    border: 1px solid #f44336;
+    background-color: white;
+}
+.third-line-buttons{
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.number-4{
+    background-color: lightgrey;
+    transition-duration: 0.4s;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.number-4:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.number-5{
+    background-color: lightgrey;
+    transition-duration: 0.4s;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.number-5:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.number-6{
+    transition-duration: 0.4s;
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.number-6:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.sub{
+    transition-duration: 0.4s;
+    background-color: #f44336;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.sub:hover{
+    border: 1px solid #f44336;
+    background-color: white;
+
+}
+.fourth-line-buttons{
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.number-1{
+    transition-duration: 0.4s;
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.number-1:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.number-2{
+    transition-duration: 0.4s;
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.number-2:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.number-3{
+    transition-duration: 0.4s;
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.number-3:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.add{
+    transition-duration: 0.4s;
+    background-color: #f44336;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.add:hover{
+    border: 1px solid #f44336;
+    background-color: white;
+
+}
+.last-line-buttons{
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.number-0{
+    transition-duration: 0.4s;
+    background-color: #d8d9db;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 74.8%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.number-0:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.equal{
+    transition-duration: 0.4s;
+    background-color: #df974c;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    height: 2cm;
+    width: 24.5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.equal:hover{
+    border: 1px solid #df974c;
+    background-color: white;
+
+}
